@@ -1,5 +1,5 @@
 public class Main {
-	// № 1  Создать пустой проект в IntelliJ IDEA и прописать метод main()
+    // № 1  Создать пустой проект в IntelliJ IDEA и прописать метод main()
     public static void main(String[] args) {
     	// № 2 Создать переменные всех пройденных типов данных и инициализировать их значения
 	    byte b = 127;
@@ -9,27 +9,27 @@ public class Main {
 	    float f = 32.85f;
 	    double d = 75.23;
 	    char c = 'g'; // or 103
-		boolean bool = true; // or false
+	    boolean bool = true; // or false
     }
 
     // № 3  Написать метод, вычисляющий выражение a * (b + (c / d)) и возвращающий результат,
     //      где a, b, c, d – аргументы этого метода, имеющие тип float.
-	public static float expressionFloat(float a, float b, float c, float d) {
-		return a * (b + (c / d));
-	}
+    public static float expressionFloat(float a, float b, float c, float d) {
+	return a * (b + (c / d));
+    }
 
-	// № 4  Написать метод, принимающий на вход два целых числа и проверяющий,
+    // № 4  Написать метод, принимающий на вход два целых числа и проверяющий,
     //      что их сумма лежит в пределах от 10 до 20 (включительно), если да – вернуть true,
     //      в противном случае – false.
-	public static boolean expressionRange(int a, int b) {
-    	int i = a + b;
-		return i >= 10 && i <= 20;
-	}
+    public static boolean expressionRange(int a, int b) {
+	int i = a + b;
+	return i >= 10 && i <= 20;
+    }
 
     // № 5  Написать метод, которому в качестве параметра передается целое число,
     //      метод должен напечатать в консоль, положительное ли число передали или отрицательное.
     //      Замечание: ноль считаем положительным числом
-	public static void positiveOrNegative(int a) {
+    public static void positiveOrNegative(int a) {
         if(a >= 0) System.out.println("Число положительное");
         else System.out.println("Число отрицательное");
     }
