@@ -10,6 +10,7 @@ public class Main {
 	    double d = 75.23;
 	    char c = 'g'; // or 103
 	    boolean bool = true; // or false
+	    String str = "Строка";
     }
 
     // № 3  Написать метод, вычисляющий выражение a * (b + (c / d)) и возвращающий результат,
